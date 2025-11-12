@@ -148,13 +148,13 @@ section {padding: 100px 0;}
 
 /* KAYIT */
 #kayit {background: var(--bg-off-white);}
-.join-wrapper {display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; align-items: flex-start;}
-.join-box { /* .form-container kaldırıldığı için bu kutu artık tek başına */
-    flex: 1; min-width: 320px; max-width: 500px; /* Max genişliği ayarlandı */
+.join-wrapper {display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; align-items: center;}
+.join-box { 
+    flex: 1; min-width: 320px; max-width: 500px; 
     background: white; border-radius: 16px; box-shadow: 0 6px 20px var(--shadow-light);
     padding: 30px; border: 1px solid var(--border-light);
 }
-.join-box h2 {color: var(--text-dark); text-align: center; margin-bottom: 10px;}
+.join-box h2 {color: var(--text-dark); text-align: center; margin-bottom: 20px;}
 .join-box p {text-align: center; color: var(--text-muted); margin-bottom: 30px;}
 .feature-list {list-style: none; display: flex; flex-direction: column; gap: 20px;}
 .feature-item {
@@ -176,8 +176,7 @@ section {padding: 100px 0;}
 .icon-network  { color: #f1c40f; } /* Sarı */
 
 
-/* --- FORM STİLLERİ (ÖNCEKİ KODDAN SİLİNDİ) --- */
-/* .form-container ve .kayit-form ile ilgili tüm stiller buradan kaldırıldı */
+
 
 
 /* KAYIT BÖLÜMÜ BUTONLARI (YENİ EKLENDİ) */
